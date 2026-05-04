@@ -1,3 +1,4 @@
+# Parameters
 nc: 4  # number of classes
 scales: # model compound scaling constants
   # [depth, width, max_channels]
