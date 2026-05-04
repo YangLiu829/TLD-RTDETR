@@ -28,3 +28,5 @@ conda install pytorch==2.2.2 torchvision torchaudio pytorch-cuda=12.1 -c pytorch
 # Install other core dependencies
 pip install ultralytics==8.2.103 opencv-python==4.10.0.84 numpy==1.26.4
 ```
+#This study uses the datasets containing 4 classes of Tomato leaf disease:
+Fine-tuning datasets:Roboflow(https://universe.roboflow.com/tomatodiseases/tomato-village-diseases))
