@@ -29,4 +29,4 @@ conda install pytorch==2.2.2 torchvision torchaudio pytorch-cuda=12.1 -c pytorch
 pip install ultralytics==8.2.103 opencv-python==4.10.0.84 numpy==1.26.4
 ```
 ## datasets 
-#This study uses the dataset https://universe.roboflow.com/tomatodiseases/tomato-village-diseases
+#This study uses the tomato leaf disease dataset https://universe.roboflow.com/tomatodiseases/tomato-village-diseases
