@@ -13,7 +13,10 @@
 ## Software Dependencies
 - Python >= 3.8  
 - PyTorch == 2.0.0
-  # Create an environment
+ ## Conda Environment Setup
+
+```bash
+# Create an environment
 conda create -n yolo python=3.10.14
 
 # Activate the environment
@@ -23,4 +26,5 @@ conda activate RTDETR
 conda install pytorch==2.2.2 torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
 # Install other core dependencies
-pip install ultralytics opencv-python numpy
+pip install ultralytics==8.2.103 opencv-python==4.10.0.84 numpy==1.26.4
+```
